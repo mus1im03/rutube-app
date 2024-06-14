@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+}
+
+.container {
+    max-width: 1053px;
+    border-bottom: 2px solid #321F30;
+    padding-bottom: 25px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    height: 1px; 
+    background: linear-gradient(to right, #0699DB, #2D5E87, #2E2A3F, #321F30, #341926, #150C15);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 130px;
+}
+
+@media (max-width: 504px) {
+    .container {
+        width: 450px;
+    }
+}
